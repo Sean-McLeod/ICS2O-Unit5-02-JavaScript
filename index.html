@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="determine whether the numbers are positive or negative">
+    <meta name="keywords" content="positive, math, negative">
+    <meta name="author" content="sean mcleod">
+    <title> Is it positive or negative?</title>
+  </head>
+  <body>
+  <input id="tis" type="textbox">
+  <button onclick="myfunction()">Click Here!</button>
+  <script>
+    function myfunction() {
+    let x
+    x=document.getElementById("tis").value
+    if (x>0)
+    alert ("This is a positive number")
+    else if (x<0)
+    alert ("This is a negative number")
+    else if (x==0)
+    alert ("Zero is neither negative nor positive")
+    }
+  </script>
+  <p>Type in any positive or negative number. <br>This detector will tell you if it's
+  negative or positive!!</p>
+  </body>
+</html>
